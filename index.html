@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <title>Scorpion</title>
+</head>
+
+<body>
+    <!-- Imagem do formulário -->
+    <div class="form-group d-flex justify-content-center">
+        <img src="img/login.png" alt="Imagem de login" class="img-responsive">
+    </div>
+    <!-- Form para login -->
+    <div class="container">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6 offset-md-3">
+                    <label for="inputEmail">Login:</label>
+                    <input type="email" class="form-group form-control" id="inputEmail" placeholder="E-mail">
+                </div>
+                <div class="form-group col-md-6 offset-md-3">
+                    <label for="inputSenha">Senha:</label>
+                    <input type="password" class="form-group form-control" id="inputSenha" placeholder="Senha">
+                </div>
+            </div>
+        </form>
+        <div class="form-group d-flex justify-content-center">
+            <button class="btn btn-outline-primary" name="Entrar" onclick="entrar()">Entrar</button>
+        </div>
+        <div class="form-group d-flex justify-content-center">
+            <label for="inputButton">Não tem uma conta? <a href="registrar.html">Crie uma!</a></label>
+        </div>
+    </div>
+
+    <!--SCRIPT PARA RODAR OS BOTÕES-->
+    <script src="script/script.js"></script>
+</body>
+
+</html>
